@@ -1,0 +1,94 @@
+<div class="sidebar">
+    <ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-a')">Введение в Java</li>
+            <ul id="sidebar-a" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-introduction-history')">История Java</li>
+                <li onclick="openTabSide(event, 'tutorials-java-introduction-components')">Компоненты Java</li>
+                <li onclick="openTabSide(event, 'tutorials-java-introduction-install')">Установка и настройка среды разработки</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-b')">Основы программирования на Java</li>
+            <ul id="sidebar-b" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-basics-data')">Типы данных</li>
+                <li onclick="openTabSide(event, 'tutorials-java-basics-operators')">Операторы</li>
+                <li onclick="openTabSide(event, 'tutorials-java-basics-conditionaloperator')">Условные операторы</li>
+                <li onclick="openTabSide(event, 'tutorials-java-basics-cycle')">Циклы</li>
+                <li onclick="openTabSide(event, 'tutorials-java-basics-arrays')">Массивы</li>
+                <li onclick="openTabSide(event, 'tutorials-java-basics-functions')">Функции</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-c')">ООП в Java</li>
+            <ul id="sidebar-c" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-oop-encapsulation')">Инкапсуляция</li>
+                <li onclick="openTabSide(event, 'tutorials-java-oop-inheritance')">Наследование</li>
+                <li onclick="openTabSide(event, 'tutorials-java-oop-polymorphism')">Полиморфизм</li>
+                <li onclick="openTabSide(event, 'tutorials-java-oop-abstraction')">Абстракция</li>
+                <li onclick="openTabSide(event, 'tutorials-java-oop-interfaces')">Интерфейсы</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-d')">Работа со строками и регулярными выражениями в Java</li>
+            <ul id="sidebar-d" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-strreg-strings')">Обработка строк в Java</li>
+                <li onclick="openTabSide(event, 'tutorials-java-strreg-regulars')">Регулярные выражения</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-e')">Коллекции в Java</li>
+            <ul id="sidebar-e" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-collections-lists')">Списки</li>
+                <li onclick="openTabSide(event, 'tutorials-java-collections-queues')">Очереди</li>
+                <li onclick="openTabSide(event, 'tutorials-java-collections-sets')">Множества</li>
+                <li onclick="openTabSide(event, 'tutorials-java-collections-maps')">Карты</li>
+                <li onclick="openTabSide(event, 'tutorials-java-collections-iterators')">Итераторы</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-f')">Многопоточность в Java</li>
+            <ul id="sidebar-f" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-threading-thred')">Потоки</li>
+                <li onclick="openTabSide(event, 'tutorials-java-threading-sync')">Синхронизация</li>
+                <li onclick="openTabSide(event, 'tutorials-java-threading-interaction')">Взаимодействие потоков</li>
+                <li onclick="openTabSide(event, 'tutorials-java-threading-pool')">Пул потоков</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-g')">Работа с файлами и потоками в Java</li>
+            <ul id="sidebar-g" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-files-readwrite')">Чтение и запись файлов</li>
+                <li onclick="openTabSide(event, 'tutorials-java-files-threadinputoutput')">Работа с потоками ввода-вывода</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-k')">Расширенные возможности Java</li>
+            <ul id="sidebar-k" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-extend-reflection')">Рефлексия</li>
+                <li onclick="openTabSide(event, 'tutorials-java-extend-annotations')">Аннотации</li>
+                <li onclick="openTabSide(event, 'tutorials-java-extend-generics')">Дженерики</li>
+                <li onclick="openTabSide(event, 'tutorials-java-extend-lambda')">Лямбда-выражения</li>
+                <li onclick="openTabSide(event, 'tutorials-java-extend-functional')">Java 8 и Java 11 функциональные возможности</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-h')">Базы данных в Java</li>
+            <ul id="sidebar-h" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-db-work')">Работа с базами данных</li>
+                <li onclick="openTabSide(event, 'tutorials-java-db-jdbc')">JDBC</li>
+                <li onclick="openTabSide(event, 'tutorials-java-db-orm')">ORM-фреймворки</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-i')">Веб-программирование на Java</li>
+            <ul id="sidebar-i" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-web-servlets')">Servlets</li>
+                <li onclick="openTabSide(event, 'tutorials-java-web-jsp')">JSP</li>
+                <li onclick="openTabSide(event, 'tutorials-java-web-jsf')">JSF</li>
+                <li onclick="openTabSide(event, 'tutorials-java-web-spring')">Spring MVC</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-j')">Разработка приложений на Java</li>
+            <ul id="sidebar-j" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-apps-gui')">Создание графического интерфейса</li>
+                <li onclick="openTabSide(event, 'tutorials-java-apps-thread')">Разработка многопоточных приложений</li>
+                <li onclick="openTabSide(event, 'tutorials-java-apps-qa')">Тестирование приложений</li>
+                <li onclick="openTabSide(event, 'tutorials-java-apps-debug')">Отладка приложений</li>
+            </ul>
+        <li onclick="sidebarOpenUl(event, 'sidebar-l')">Дополнительные темы</li>
+            <ul id="sidebar-l" style="display: none;">
+                <li onclick="openTabSide(event, 'tutorials-java-more-javafx')">JavaFX</li>
+                <li onclick="openTabSide(event, 'tutorials-java-more-xml')">Работа с XML</li>
+                <li onclick="openTabSide(event, 'tutorials-java-more-json')">Работа с JSON</li>
+                <li onclick="openTabSide(event, 'tutorials-java-more-network')">Работа с сетью</li>
+            </ul>
+    </ul>
+
+</div>
+
+<div id="articleTab">
+    <div class="textarea">
+        <p>Java – это универсальный, объектно-ориентированный язык программирования, который работает на широком диапазоне платформ, от настольных компьютеров до встроенных устройств и серверов. В этом учебнике мы рассмотрим основы Java, включая типы данных, управляющие конструкции, классы, наследование, интерфейсы, исключения и стандартную библиотеку Java.</p>
+    </div>
+</div>
